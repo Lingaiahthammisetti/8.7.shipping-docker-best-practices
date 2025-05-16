@@ -8,8 +8,6 @@ RUN mvn dependency:resolve
 COPY src /opt/shipping/src/
 RUN mvn package
 
-
-
 #Dockerfile with multi-stage build
 
 #Build
